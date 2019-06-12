@@ -1,4 +1,4 @@
-package com.coocaa.utils;
+package com.hklbigdata.utils;
 
 /**
  * 校验工具类

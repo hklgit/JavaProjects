@@ -1,4 +1,4 @@
-package com.coocaa.算法;
+package com.hklbigdata.算法;
 
 /**
  * @Author: kerven hankunlun@coocaa.com

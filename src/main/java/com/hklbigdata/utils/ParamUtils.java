@@ -1,4 +1,4 @@
-package com.coocaa.utils;
+package com.hklbigdata.utils;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;

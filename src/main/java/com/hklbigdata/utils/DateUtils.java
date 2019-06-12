@@ -1,4 +1,4 @@
-package com.coocaa.utils;
+package com.hklbigdata.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.coocaa.conf;
+package com.hklbigdata.conf;
 
 import java.util.Properties;
 
