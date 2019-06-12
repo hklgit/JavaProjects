@@ -34,6 +34,8 @@ import java.util.concurrent.TimeUnit;
  * jstack
  * jconsole
  * all theses tools can be used to analyze dead lock
+ *
+ * linked to:  https://juejin.im/post/5aaf6ee76fb9a028d3753534
  */
 public class 手撕一个死锁 {
 
