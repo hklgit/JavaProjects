@@ -39,6 +39,9 @@ import java.util.concurrent.TimeUnit;
  *
  * 我这里有个话题讨论：
  * 我们到底设置多少thread数据合适？
+ *
+ * 文章的末尾处说道如何的去创建线程池：不过在java doc中，并不提倡我们直接使用ThreadPoolExecutor，而是使用Executors类中提供的几个静态方法来创建线程池
+ * 这个和阿里的开发手册里说的真好使相反的，元芳你怎么看？
  */
 public class ThreadPoolDemo {
     public static void main(String[] args) {
