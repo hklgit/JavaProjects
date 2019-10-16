@@ -25,13 +25,17 @@ public class BinarySearch {
         //1.1确定首位元素
         int start = 0;
         int end = arr.length-1;
+        int mid;
         //1.2 校验
 //        if(target < start || target > end || start >end) return -1;
 
 
         //2: 这里有个循环的条件很关键
         while( start<=end){
-            int mid = start + (end-start)/2;
+//            这里有两个点：1：mid定义在外部，赋值在内部
+//                    2：为了防止大数相加溢出，所以才用了 start+(end-start)/2
+//
+             mid = start + (end-start)/2;
             // 拿到中间值的角标
             if(arr[mid]>target){
                 end = mid -1;
