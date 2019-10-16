@@ -20,7 +20,8 @@ public class MaoPaoSortv2 {
 
 
 
-
+    //   冒泡也是两层循环，它的对比是进行把两个相邻的做两两比对，大的往后仍,每次循环完毕都是得到了一个最大的放在了末尾处。
+//     外层的循环每完成一次也就少了一个要对比的数，所以内存循环也就少了一次，所以有 -i 的操作
     public static void sort(int[] arr){
 
         int len = arr.length - 1;
